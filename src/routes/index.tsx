@@ -1,26 +1,29 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/shared/Navbar";
+import { Footer } from "@/components/shared/Footer";
+import { Home } from "@/pages/Home/Home";
 
 export const Route = createFileRoute("/")({
-  component: Index,
+  head: () => ({
+    meta: [
+      { title: "Lumen — Faith Cinema. Stories that move faith forward." },
+      { name: "description", content: "Premium cinematic faith-centered streaming. Watch films, listen to podcasts, attend live events — one immersive ecosystem." },
+      { property: "og:title", content: "Lumen — Faith Cinema" },
+      { property: "og:description", content: "Stories that move faith forward. Watch. Listen. Live." },
+      { property: "og:type", content: "website" },
+    ],
+  }),
+  component: IndexPage,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function IndexPage() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background text-foreground">
+      <Navbar />
+      <main>
+        <Home />
+      </main>
+      <Footer />
     </div>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }
