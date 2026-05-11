@@ -1,3 +1,9 @@
-import { handle } from '../dist/server/server.js';
+import handler from '../dist/server/server.js';
 
-export default handle;
+export const config = {
+  runtime: 'edge',
+};
+
+export default async function (request: Request) {
+  return handler.fetch(request);
+}
