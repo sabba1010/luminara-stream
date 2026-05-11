@@ -20,8 +20,8 @@ export function Footer() {
                 <Play className="h-4 w-4 text-black fill-black" />
               </div>
               <div>
-                <div className="text-base font-bold tracking-tight">LUMEN</div>
-                <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">Faith Cinema</div>
+                <div className="text-base font-bold tracking-tight">RICH AGUILERA</div>
+                <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">Faith & Exploration</div>
               </div>
             </div>
             <p className="mt-5 max-w-sm text-sm text-muted-foreground leading-relaxed">
@@ -51,7 +51,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-14 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} Lumen Faith Cinema. All stories crafted with purpose.</p>
+          <p>© {new Date().getFullYear()} Rich Aguilera. All stories crafted with purpose.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
             <a href="#" className="hover:text-foreground transition-colors">Terms</a>

@@ -6,9 +6,9 @@ import { Home } from "@/pages/Home/Home";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Lumen — Faith Cinema. Stories that move faith forward." },
+      { title: "Rich Aguilera — Cinematic Faith Stories" },
       { name: "description", content: "Premium cinematic faith-centered streaming. Watch films, listen to podcasts, attend live events — one immersive ecosystem." },
-      { property: "og:title", content: "Lumen — Faith Cinema" },
+      { property: "og:title", content: "Rich Aguilera — Faith Cinema" },
       { property: "og:description", content: "Stories that move faith forward. Watch. Listen. Live." },
       { property: "og:type", content: "website" },
     ],

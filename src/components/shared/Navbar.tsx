@@ -39,8 +39,8 @@ export function Navbar() {
             <Play className="h-4 w-4 text-black fill-black" />
           </div>
           <div className="leading-none">
-            <div className="text-[15px] font-bold tracking-tight">LUMEN</div>
-            <div className="text-[9px] uppercase tracking-[0.25em] text-muted-foreground">Faith Cinema</div>
+            <div className="text-[15px] font-bold tracking-tight">RICH AGUILERA</div>
+            <div className="text-[9px] uppercase tracking-[0.25em] text-muted-foreground">Faith & Exploration</div>
           </div>
         </Link>
 
