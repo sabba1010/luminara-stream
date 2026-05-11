@@ -73,13 +73,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Rich Aguilera" },
-      { name: "description", content: "Lovable Generated Project" },
+      { name: "description", content: "Faith-centered cinematic streaming platform." },
       { name: "author", content: "Rich Aguilera" },
       { property: "og:title", content: "Rich Aguilera" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:description", content: "Faith-centered cinematic streaming platform." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@RichAguilera" },
     ],
     links: [
       {
